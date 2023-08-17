@@ -1,0 +1,32 @@
+  369  git init
+  370  git config--list
+  371  git config --list
+  372  git remote add origin https://github.com/YessicaAlejandraMartinez/checkpoint-AlejandraMartinez.git
+  373  git remote -v
+  374  touch main.js index.html
+  375  git commit -m "commit 01 de Alejandra Martinez"
+  376  git add .
+  377  git commit -m "commit 01 Alejandra Martinez"
+  378  git push origin main
+  379  git branch feature
+  380  git checkout feature
+  381  mkdir Hardware
+  382  mkdir Software
+  383  mkdir SeguridadInformatica
+  384  cd Hardware
+  385  touch resumen.txt
+  387  cd ..
+  388  cd Software
+  389  touch resumen.txt
+  390  cd ..
+  391  cd SeguridadInformatica
+  392  touch resumen.txt
+  393  cd ..
+  394  git add .
+  395  git commit -m "commit 02 Alejandra Martinez"
+  396  git push origin feature
+  397  git checkout main
+  398  mv main.js resumenHardware.txt
+  399  mv index.html resumenSoftware.txt
+  400  touch comandos.txt
+  404  history 50 > comandos.txt
